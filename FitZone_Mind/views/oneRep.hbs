@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone|Mind| oneRepAtTime</title>
+
+    <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+  crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="/static/css/oneRepStyle.css">
+</head>
+
+<body>
+  <!-- Navebas - with brandlogo -->
+  {{>navbar}}
+
+  <!-- login-user -->
+  <div id="loginPageId" class="modal">
+    <!-- form-start -->
+    <form class="modal-content animate">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('loginPageId').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="/static/image/img_avatar.png" alt="Avatar" class="avatar"> <!-- user-img -->
+      </div>
+  
+      <div class="hidden-container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label for="psw"><b>Password</b></label><!-- Password-input -->
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        
+        <button type="submit" class="loginbtn">Login</button><!-- login-button -->
+        <label><input type="checkbox" checked="checked" name="remember"> Remember me</label> 
+      </div>
+      <!-- cancel-button and ForgotPassword -->
+      <div class="container-bottom" style="background-color: #000000">
+        <button type="button" onclick="document.getElementById('loginPageId').style.display='none' " class="cancelbtn">Cancel</button>
+        <span class="psw"><a href="#">Forgot password?</a></span>
+      </div>
+  
+    </form>
+    <!-- form-end -->
+  </div>
+  <!-- shopping-cart -->
+  <div class="cart-popup" id="myCart">
+    <form class="innerCart-container">
+      <h3>Your Cart</h3>
+      <span onclick="document.getElementById('myCart').style.display='none'" class="closeCart" title="Close Cart">&times;</span>
+  
+      <label for="msg"><b>Lab Test</b></label><hr>
+      <img src="/static/image/empty-cart-dark-theme.webp">
+      <div class="emptyCartText" id="emptyCartMsg">
+        <p style="font-weight: 600;">Your cart is empty</p>
+        <small>Looks like you haven't made any purchases yet</small>
+      </div>
+      <button type="button" class="booktestBtn">BOOK TEST ON CULTFIT</button>
+    </form>
+  </div>
+
+
+  <!-- mainbody -->
+  <main class="main-container">
+    <!-- Home > Live > Mindfulness > One Rep at a time -->
+    <div class="link-back"><a href="#">Home ><a href="#"> Live ><a href="/mind"> Mindfulness ><a href="/mind/oneRep" style="font-weight: bold;"> One Rep at a time </a></a></a></a></div>
+    <h2>One Rep at a time</h2>
+
+    <h6 style="font-weight: 100;">Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build 
+      a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & 
+      fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former 
+      Olympians!</h6>
+    
+    <div class="container">
+      <div class="card" id="myLink">
+        <div class="img-container">
+          <img src="/static/image/oneRap-healthyweightloss.png" alt="Image" class="card-img">
+          <div>
+            <a href="#" class="icon">
+              <i class="fa-solid fa-circle-play" style="color: #f20202;"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card-content">
+          <h5 class="card-title" style="font-weight: bold;">Healthy Weight Loss</h5>
+          <small class="countSection" style="font-weight: 100;">06 sessions</small><hr>
+          <p class="card-text" style="font-size: small;">Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a 
+            fitness habit for life. Tune in every weekday for invigorating discussions on curated health & 
+            fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even 
+            former Olympians! </p>
+        </div>
+      </div>
+      <div class="card">
+          <div class="img-container">
+            <img src="/static/image/oneRap-balancedEating.jpeg" alt="Image" class="card-img">
+            <div>
+              <a href="#" class="icon">
+                <i class="fa-solid fa-circle-play" style="color: #f20202;"></i>
+              </a>
+            </div>
+          </div>
+        <div class="card-content">
+          <h5 class="card-title" style="font-weight: bold;">Balanced Eating</h5>
+          <small class="countSection" style="font-weight: 100;">05 sessions</small><hr>
+          <p class="card-text" style="font-size: small;">Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a 
+            fitness habit for life. Tune in every weekday for invigorating discussions on curated health & 
+            fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even 
+            former Olympians! </p>
+        </div>
+      </div>
+     </div>  <!-- 1 -->
+    <div class="container">
+      <div class="card">
+        <div class="img-container">
+          <img src="/static/image/oneRap-sleepRecovery.jpeg" alt="Image" class="card-img">
+          <div>
+            <a href="#" class="icon">
+              <i class="fa-solid fa-circle-play" style="color: #f20202;"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card-content">
+          <h5 class="card-title" style="font-weight: bold;">Sleep & Recovery</h5>
+          <small class="countSection" style="font-weight: 100;">05 sessions</small><hr>
+          <p class="card-text" style="font-size: small;">Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a 
+            fitness habit for life. Tune in every weekday for invigorating discussions on curated health & 
+            fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even 
+            former Olympians! </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container">
+          <img src="/static/image/oneRap-Habits.webp" alt="Image" class="card-img">
+          <div>
+            <a href="#" class="icon">
+              <i class="fa-solid fa-circle-play" style="color: #f20202;"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card-content">
+          <h5 class="card-title" style="font-weight: bold;">Habits & Consistency</h5>
+          <small class="countSection" style="font-weight: 100;">05 sessions</small><hr>
+          <p class="card-text" style="font-size: small;">Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a 
+            fitness habit for life. Tune in every weekday for invigorating discussions on curated health & 
+            fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even 
+            former Olympians! </p>
+        </div>
+      </div>
+    </div> <!-- 2 -->
+    <div class="container">
+      <div class="card">
+        <div class="img-container">
+          <img src="/static/image/oneRap-stress.webp" alt="Image" class="card-img">
+          <div>
+            <a href="#" class="icon">
+              <i class="fa-solid fa-circle-play" style="color: #f20202;"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card-content">
+          <h5 class="card-title" style="font-weight: bold;">All about stress</h5>
+          <small class="countSection" style="font-weight: 100;">05 sessions</small><hr>
+          <p class="card-text" style="font-size: small;">Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a 
+            fitness habit for life. Tune in every weekday for invigorating discussions on curated health & 
+            fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even 
+            former Olympians! </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container">
+          <img src="/static/image/oneRap-dietEating.webp" alt="Image" class="card-img">
+          <div>
+            <a href="#" class="icon">
+              <i class="fa-solid fa-circle-play" style="color: #f20202;"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card-content">
+          <h5 class="card-title" style="font-weight: bold;">Diets & Eating Patterns</h5>
+          <small class="countSection" style="font-weight: 100;">05 sessions</small><hr>
+          <p class="card-text" style="font-size: small;">Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a 
+            fitness habit for life. Tune in every weekday for invigorating discussions on curated health & 
+            fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even 
+            former Olympians! </p>
+        </div>
+      </div>
+    </div> <!-- 3 -->
+    <div class="container">
+      <div class="card">
+        <div class="img-container">
+          <img src="/static/image/oneRap-losswomen.jpg" alt="Image" class="card-img">
+          <div>
+            <a href="#" class="icon">
+              <i class="fa-solid fa-circle-play" style="color: #f20202;"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card-content">
+          <h5 class="card-title" style="font-weight: bold;">Weight Loss for Women</h5>
+          <small class="countSection" style="font-weight: 100;">05 sessions</small><hr>
+          <p class="card-text" style="font-size: small;">Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a 
+            fitness habit for life. Tune in every weekday for invigorating discussions on curated health & 
+            fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even 
+            former Olympians! </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container">
+          <img src="/static/image/SandeepStrength.webp" alt="Image" class="card-img">
+          <div>
+            <a href="#" class="icon">
+              <i class="fa-solid fa-circle-play" style="color: #f20202;"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card-content">
+          <h5 class="card-title" style="font-weight: bold;">Know your body better</h5>
+          <small class="countSection" style="font-weight: 100;">05 sessions</small><hr>
+          <p class="card-text" style="font-size: small;">Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a 
+            fitness habit for life. Tune in every weekday for invigorating discussions on curated health & 
+            fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even 
+            former Olympians! </p>
+        </div>
+      </div>
+    </div> <!-- 4 -->
+    <div class="container">
+      <div class="card">
+        <div class="img-container">
+          <img src="/static/image/oneRap-fitlife.jpeg" alt="Image" class="card-img">
+          <div>
+            <a href="#" class="icon">
+              <i class="fa-solid fa-circle-play" style="color: #f20202;"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card-content">
+          <h5 class="card-title" style="font-weight: bold;">Fitness in Busy Lives</h5>
+          <small class="countSection" style="font-weight: 100;">01 sessions</small><hr>
+          <p class="card-text" style="font-size: small;">Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a 
+            fitness habit for life. Tune in every weekday for invigorating discussions on curated health & 
+            fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even 
+            former Olympians! </p>
+        </div>
+      </div>
+    </div> <!-- 5 -->
+    
+  </main>
+
+
+  <!-- Footer for FitZone -->
+  {{>footer}}
+
+
+
+  {{!-- Main javaScript for oneRap page --}}
+  <script src="/static/js/oneRepScript.js"></script>
+  {{!-- script for fontawesome ICONS --}}
+  <script src="https://kit.fontawesome.com/a1da3dbfbf.js" crossorigin="anonymous"></script>
+  
+</body>
+</html>

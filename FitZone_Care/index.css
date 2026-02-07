@@ -1,0 +1,627 @@
+.f {
+  font-size: 25px;
+}
+
+.body-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluebody-gradient {
+  background: linear-gradient(purple, white);
+}
+.vitamin-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluevitamin-gradient {
+  background: linear-gradient(blue, lightpink);
+}
+.thyroid-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluethyroid-gradient {
+  background: linear-gradient(blue, pink);
+}
+.fitnessmen-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluefitnessmen-gradient {
+  background: linear-gradient(gray, pink);
+}
+.fitnesswomen-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluefitnesswomen-gradient {
+  background: linear-gradient(gray, pink);
+}
+.diabetes-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluediabetes-gradient {
+  background: linear-gradient(pink, white);
+}
+.immunity-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.blueimmunity-gradient {
+  background: linear-gradient(lightblue, white);
+}
+.bodyenergy-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluebodyenergy-gradient {
+  background: linear-gradient(lightblue, pink);
+}
+.pregnent-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluepregnent-gradient {
+  background: linear-gradient(darkblue, pink);
+}
+.kideny-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluekideny-gradient {
+  background: linear-gradient(lightpink, white);
+}
+.hairfall-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluehairfall-gradient {
+  background: linear-gradient(blue, pink);
+}
+.bone-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluebone-gradient {
+  background: linear-gradient(purple, pink);
+}
+.fever-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluefever-gradient {
+  background: linear-gradient(blue, pink);
+}
+.alcohal-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluealcohal-gradient {
+  background: linear-gradient(yellow, pink);
+}
+.anemia-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.blueanemia-gradient {
+  background: linear-gradient( pink,white);
+}
+.citizenmen-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluecitizenmen-gradient {
+  background: linear-gradient(purple, pink);
+}
+.citizenwomen-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.bluecitizenwomen-gradient {
+  background: linear-gradient(blue,white );
+}
+.obesity-icon {
+  border-radius: 5px 5px 5px;
+  border: 1px solid none;
+  display: inline-block;
+  border-width: 5px;
+  margin: 2px 2px 2px 2px;
+}
+
+.blueobesity-gradient {
+  background: linear-gradient(red, pink);
+}
+
+
+
+
+
+
+
+
+
+.purple-gradient {
+  background: linear-gradient(red)
+}
+
+.threehed {
+  background-color: greenyellow;
+}
+
+.para1 {
+  border: 3px solid gray;
+
+  background-color: black;
+ 
+
+}
+
+#p1 {
+  width: 50%;
+  background-color: black;
+  float: left;
+  color:white;
+}
+
+#p2 {
+  width: 50%;
+  background-color: black;
+  float: left;
+  color:white;
+}
+
+#p3 {
+  width: 50%;
+  background-color: black;
+  float: left;
+  color:white;
+}
+
+#p4 {
+  width: 50%;
+  background-color: black;
+  float: left;
+  color:white;
+}
+
+#p5 {
+  width: 50%;
+
+  float: right;
+
+  background-color: black;
+  color:white;
+}
+
+#p6 {
+  width: 50%;
+
+  background-color: black;
+  float: right;
+  color:white;
+}
+
+#p7 {
+  width: 50%;
+
+  background-color: black;
+  float: right;
+  color:white;
+}
+
+.para2 {
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+
+.para2div1 {
+  background-color: black;;
+  width: 20%;
+}
+
+.para2div2 {
+  background-color: black;
+  width: 20%;
+}
+
+.para2div3 {
+  background-color: black;
+  width: 20%;
+}
+
+.para2div4 {
+  background-color: black;
+  width: 20%;
+}
+
+.para2div5 {
+  background-color: black;
+  width: 20%;
+
+
+}
+
+.para3 {
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+
+.para3div1 {
+  background-color:  black;
+  width: 16%;
+}
+
+.para3div2 {
+  background-color:  black;
+  width: 16%;
+}
+
+.para3div3 {
+  background-color:  black;
+  width: 16%;
+}
+
+.para3div4 {
+  background-color:  black;
+  width: 16%;
+}
+
+.iconclass {
+  display: block;
+  background-color: black;
+  
+
+}
+
+.para3div5 {
+  background-color:  black;
+  width: 16%;
+}
+
+.para3div6 {
+  background-color:  black;
+  width: 16%;
+}
+
+.apple {
+  background-color: black;
+  border-radius: 10%;
+
+}
+
+.google {
+  background-color: black;
+}
+
+.fb {
+  background-color: black;
+}
+
+.insta {
+  background-color: black;
+}
+
+.link {
+  background-color:black;
+}
+
+.twitter {
+  background-color: black;
+}
+
+.d1 {
+  display: flex;
+}
+
+.d2 {
+  display: flex;
+}
+
+.d3 {
+  display: flex;
+}
+
+.d4 {
+  display: flex;
+}
+.quesclass{
+  background-color: black;
+}
+.f{
+  color: white;
+}
+.mid{
+  display:flex;
+}
+.threehed{
+background-color: white;
+}
+.a{
+  font-size:xx-large;
+}
+.b{
+  color:white;
+}
+.pp1{
+color:white;
+}
+.pp2{
+color:white;
+}
+.hh1{
+color:white;
+}
+.hh2{
+color:white;
+}
+.c{
+  color:white;
+}
+.body-icon{
+transition: 1s;
+}
+.body-icon:hover{
+transform: scale(1.1);
+}
+.vitamin-icon{
+  transition: 1s;
+}
+.vitamin-icon:hover{
+  transform: scale(1.1);
+}
+.thyroid-icon{
+  transition: 1s;
+}
+.thyroid-icon:hover{
+  transform: scale(1.1);
+}
+.fitnessmen-icon{
+  transition: 1s;
+}
+.fitnessmen-icon:hover{
+  transform: scale(1.1);
+}
+.fitnesswomen-icon{
+  transition: 1s;
+}
+.fitnesswomen-icon:hover{
+  transform: scale(1.1);
+}
+.diabetes-icon{
+  transition: 1s;
+}
+.diabetes-icon:hover{
+  transform: scale(1.1);
+}
+.immunity-icon{
+  transition: 1s;
+}
+.immunity-icon:hover{
+  transform: scale(1.1);
+}
+.bodyenergy-icon{
+  transition: 1s;
+}
+.bodyenergy-icon:hover{
+  transform: scale(1.1);
+}
+.pregnent-icon{
+  transition: 1s;
+}
+.pregnent-icon:hover{
+  transform: scale(1.1);
+}
+.kideny-icon{
+  transition: 1s;
+}
+.kideny-icon:hover{
+  transform: scale(1.1);
+}
+.hairfall-icon{
+  transition: 1s;
+}
+.hairfall-icon:hover{
+  transform: scale(1.1);
+}
+.bone-icon{
+  transition: 1s;
+}
+.bone-icon:hover{
+  transform: scale(1.1);
+}
+.fever-icon{
+  transition: 1s;
+}
+.fever-icon:hover{
+  transform: scale(1.1);
+}
+.alcohal-icon{
+  transition: 1s;
+}
+.alcohal-icon:hover{
+  transform: scale(1.1);
+}
+.anemia-icon{
+  transition: 1s;
+}
+.anemia-icon:hover{
+  transform: scale(1.1);
+}
+.obesity-icon {
+  transition: 1s;
+
+}
+.obesity-icon :hover{
+  transform: scale(1.1); 
+}
+.citizenmen-icon{
+  transition: 1s;
+}
+.citizenmen-icon:hover{
+  transform: scale(1.1); 
+}
+.citizenwomen-icon {
+  transition: 1s;
+}
+.citizenwomen-icon :hover{
+  transform: scale(1.1); 
+}
+
+.a1{
+  float:left;
+
+}
+.a2{
+  
+float:right;
+}
+.class1{
+  padding-left: 15%;
+  padding-right: 15%;
+  
+ 
+
+}
+.mydiv1{
+  
+  display:grid;
+  grid-template-columns:auto auto auto;
+}
+.mydiv1 div{
+  padding:20px;
+  margin: 20px;
+}
+.mydiv2{
+ 
+  display:grid;
+  grid-template-columns:auto auto auto;
+}
+.mydiv2 div{
+  padding:20px;
+  margin: 20px;
+}
+.mydiv3{
+  
+  display:grid;
+  grid-template-columns:auto auto auto;
+}
+.mydiv3 div{
+  padding:20px;
+  margin: 20px;
+}
+.mydiv4{
+  
+  display:grid;
+  grid-template-columns:auto auto auto;
+}
+.mydiv4 div{
+  padding:20px;
+  margin: 20px;
+}
+
+.mydiv5{
+  
+  display:grid;
+  grid-template-columns:auto auto auto;
+}
+.mydiv4 div{
+  padding:20px;
+  margin: 20px;
+}
+
+.mydiv6{
+ 
+  display:grid;
+  grid-template-columns:auto auto auto;
+}
+.mydiv6 div{
+  padding:20px;
+  margin: 20px;
+}
+.k{
+  width:20%;
+}
+.container1{
+  text-align:left;
+  
+  background-color: black;
+}
+.leftdiv{
+  display:inline-block;
+}
+.rightdiv{
+  display:inline-block;
+}
+
+

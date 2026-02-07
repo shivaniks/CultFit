@@ -1,8 +1,18 @@
-# FitZone
+<div align="center">
+<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 50%"  />
+</div>  
   
-It is a health and fitness website offering various features like locating nearby gyms, lab tests, and expert advices. Users not only get the best set of exercises rather personalized diet plans , access to lab tests and users can customize their workout plans based on their body shape and goals. The website also provides video content from experts on mental health and wellbeing. FitZone is a comprehensive resource for all those are looking to improve their health and fitness.  
 
-## Skill Set  
+### <div align="center">Hi 👋, This is team Web-Bots, a full-stack developer team.</div>  
+  
+
+🔭 We're currently working on FitZone . It is a health and fitness website offering various features like locating nearby gyms, lab tests, and expert advices. Users not only get the best set of exercises rather personalized diet plans , access to lab tests and users can customize their workout plans based on their body shape and goals. The website also provides video content from experts on mental health and wellbeing. FitZone is a comprehensive resource for all those are looking to improve their health and fitness.  
+  
+
+<br/>  
+
+
+## Our Skill Set  
 <table><tr><td valign="top" width="33%">
 
 
@@ -40,3 +50,4 @@ It is a health and fitness website offering various features like locating nearb
 <br />
 
 ----
+

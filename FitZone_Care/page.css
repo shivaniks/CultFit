@@ -1,0 +1,150 @@
+
+
+.secp{
+    background-color: rgb(207, 219, 224);
+    height:100px;
+    box-shadow: 10px 13px 40px rgb(223, 218, 218);
+}
+.s{
+    display:flex
+}
+.body-icon bluebody-gradient:hover{
+    transform: scale(1.1);
+    transition:1s;
+   
+}
+.body-icon {
+    border-radius: 5px 5px 5px;
+    border: 1px solid none;
+    display: inline-block;
+    border-width: 5px;
+    margin: 2px 2px 2px 2px;
+  }
+  .body-icon {
+    transition: 1s;
+  }
+  .body-icon:hover{
+    transform:scale(1.1);
+  }
+  
+  .bluebody-gradient {
+    background: linear-gradient(purple, white);
+  }
+  .main{
+    width:100%;
+   
+   
+    
+  }
+  .navbar navbar-default{
+    list-style:none;
+    display:inline-block;
+    margin:0px 20px;
+  }
+.navbar navbar-default ul li a{
+    font-size:28px;
+    color:#fff;
+    text-decoration:none;
+    transition:0.3s all;
+}
+  .navbar navbar-default ul li a:hover{
+    color:yellow;
+  }
+  .hover-line::after{
+   content:'';
+   display:block;
+   width:100%;
+   height:2px;
+   background-color: yellow;
+   transition:width .3;
+  }
+  .hover-line:hover::after{
+    width:100%;
+    transition:width .3s;
+  }
+  .x{
+    width:100px;
+    height:100px;
+   
+    float:left;
+    margin:0px 10px;
+    transition:1s;
+    box-shadow: 10px 13px 40px rgb(223, 218, 218);
+    
+
+  }
+  .x:hover{
+    transform:scale(1.3);
+  }
+  .pa1{
+    
+    display:flex;
+   
+    justify-content:flex-end;
+    flex-direction:column;
+  }
+  .pa2{
+   
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:column;
+  }
+  .pa3{
+   
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:column;
+  }
+  .pa4{
+    
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:column;
+  }
+  .pa5{
+   
+    display:flex;
+
+    justify-content:flex-end;
+    flex-direction:column;
+  }
+  .pp1{
+    display:flex;
+  }
+  .pp2{
+    display:flex;
+  }
+  
+  .secondimg{
+    width:25%;
+    position: absolute;
+    top:0px;
+    right:0px;
+  }
+  .m1{
+    float:left;
+    
+    
+  }
+  .m2{
+    float:right;
+    
+    width:min-content;
+  }
+  .btn{
+    background-color: red;
+    padding:6px;
+    border:none;
+    cursor: pointer;
+    border-radius: 4px;
+    float:right;
+    margin-bottom:5px;
+    
+  }
+  .box1{
+    box-shadow: 10px 13px 40px rgb(223, 218, 218);
+    
+  }
+ 
+  
+  

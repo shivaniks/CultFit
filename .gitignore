@@ -1,0 +1,9 @@
+# Mac default file
+.DS_Store
+
+# Node modules
+FitZone/*/node_modules
+FitZone_Mind/node_modules
+
+#Temporary working file
+./dropforCities.txt

@@ -1,0 +1,1033 @@
+.vid-1
+{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    object-fit: cover;
+    opacity: 1;
+}
+.h4-1
+{
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.01px;
+    line-height: 38px;
+}
+.btn-1
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    border: 1px solid transparent;
+    background: white;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+    padding: 11.5px 20px;
+    font-weight: 700;
+}
+.a-1
+{
+     color: tomato;
+}
+.ex1
+{
+
+}
+.ex-2
+{
+    display: flex;
+    min-height: fit-content;
+    width: 100%;
+    overflow: hidden;
+}
+.ex-3
+{
+    display: flex;
+    width: 500px;
+    margin: auto auto 275px;
+}
+.ex-4
+{
+    display: flex;
+    position: absolute;
+    z-index: 15;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
+.ex-5
+{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+.ex-6
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ex-7
+{
+    width: 22px;
+    min-height: fit-content;
+    margin-top: 35px;
+}
+.ex-8
+{
+    display: flex;
+    color: tomato;
+}
+.ex-9
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.ex-10
+{
+    width: 500px;
+    margin: auto;
+}
+.ex-11
+{
+    
+}
+.ex-12
+{
+    display:flex;
+    flex-direction: column;
+
+}
+.img-2
+{
+    width: 100%;
+    display: block;
+}
+.img-3
+{
+    width: 100%;
+    display: block;
+}
+.nav
+{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+}
+.nav-1
+{
+    width: 100%;
+    height: 60px;
+    padding-inline: 24px;
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.nav-2
+{
+    width: 120px;
+    min-height: fit-content;
+    justify-content: center;
+    display: flex;
+}
+.nav-3
+{
+    display: flex;
+}
+.nav-4
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 110px;
+}
+.nav-5
+{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+.nav-6
+{
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav-7
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    opacity: 70%;
+}
+.nav-8
+{
+    display: flex;
+    align-items: center;
+}
+.nav-9
+{
+    display: flex;
+    min-height: fit-content;
+    width: 26px;
+}
+.nav-10
+{
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    margin-top: 3px;
+    margin-right: 10px;
+    font-family: Inter-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+.nav-11
+{
+    display: flex;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.nav-12
+{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: Inter-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+}
+.nav-13
+{
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: transparent;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-weight: 700;
+}
+.nav-14
+{
+    margin-inline: 15px;
+}
+.nav-15
+{
+    width: 26px;
+    min-height: fit-content;
+}
+.nav-16
+{
+    display: flex;
+    padding: 10px;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+.nav-17
+{
+    width: 24px;
+    min-height: fit-content;
+}
+.nav-18
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 11px;
+    border-radius: 50%;
+    justify-content: center;
+}
+body
+{
+    margin: 0;
+    color: #333;
+    background-color: black;
+}
+a
+{
+    text-decoration: none;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+.cimg-1
+{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+.cex-1
+{
+    width: 106px;
+    min-width: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.cimg-2
+{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+.cex-2
+{
+    width: 107px;
+    min-width: fit-content;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.cex-3
+{
+    text-align: center;
+    margin: 0;
+    color: rgb(255 255 255 / 60%);
+    font-size: 14px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+    padding: 0 60px;
+}
+.cex-4
+{
+    margin-right: 2.5%;
+    padding: 25px 0 20px;
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    border: 1px solid rgb(255 255 255 / 20%);
+    background: rgb(255 255 255 / 5%);
+    flex-basis: 30%; 
+}
+.cex-7
+{
+       width: 78px;
+       min-height: fit-content;
+       margin: auto;
+       margin-bottom: 25px;
+}
+.cex-6
+{
+       width: 106px;
+       min-height: fit-content;
+       margin: auto;
+       margin-bottom: 10px;
+       opacity: 70%;
+}
+.cex-8
+{
+    text-align: center;
+    margin: 0;
+    color: rgb(255 255 255 / 60%);
+    font-size: 14px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+    padding: 0 60px;
+}
+.cex-5
+{
+    margin-right: 2.5%;
+    padding: 25px 0 20px;
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    border: 1px solid rgb(255 255 255 / 20%);
+    background: rgb(255 255 255 / 5%);
+    flex-basis: 30%; 
+}
+.cimg-3
+{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+.cimg-4
+{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+.cimg-5
+{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+.cimg-6
+{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+.cimg-8
+{
+    width: 100%;
+}
+.cex-9
+{
+    padding: 25px 0 20px;
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    border: 1px solid rgb(255 255 255 / 20%);
+    background: rgb(255 255 255 / 5%);
+    flex-basis: 30%; 
+}
+.cex-10
+{
+    width: 106px;
+    min-height: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    opacity: 70%;
+}
+.cex-11
+{
+    width: 112px;
+    min-height: fit-content;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.cex-12
+{
+    text-align: center;
+    margin: 0;
+    color: rgb(255 255 255 / 60%);
+    font-size: 14px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+    padding: 0 60px;
+}
+.cex-13
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 1;
+}
+.nex-1
+{
+    width: 259px;
+    margin: 0 auto;
+    min-height: fit-content;
+}
+.nex-2
+{
+    text-align: center;
+    margin: 0;
+    color: black;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 30px;
+}
+.nex-3
+{
+    background-color: transparent;
+    color:inherit;
+}
+.nex-4
+{
+    border: 1px solid transparent;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    padding: 7px 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    line-height: 12px;
+    font-size: 12px;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    color: #3888FF;
+    display: flex;
+}
+.nex-5
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 22px;
+    align-items: center;
+}
+.nex-6
+{
+     width: 68px;
+     min-height: fit-content;
+}
+.nex-7
+{
+     width: 107px;
+     min-height: fit-content;
+     margin-top: 6px;
+}
+.nex-8
+{
+
+}
+.nex-9
+{
+    min-height: fit-content;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.nex-10
+{
+    background-color: transparent;
+    color: inherit;
+}
+.nex-11
+{
+    text-align: left;
+    margin: 0;
+    color: white;
+    font-size: 22px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: -0.3px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.nex-12
+{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(255 255 255 / 70%);;
+}
+.nex-13
+{
+   text-align: left;
+   margin: 0;
+   color: rgb(255 255 255 / 70%);
+   font-size: 18px;
+   font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+   letter-spacing: 0px;
+   line-height: 22px;
+   margin-left: 10px;
+}
+.nex-14
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 13px;
+}
+.nex-15
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 175px;
+}
+.nex-16
+{
+    display: flex;
+}
+.nex-17
+{
+    border: 1px solid transparent;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgb(255 255 255 / 10%);
+    backdrop-filter: blur(50px);
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+    padding: 11.5px 20px;
+    font-weight: 700;
+    min-width: 100%;
+}
+.nex-18
+{
+    min-width: 48%;
+}
+.nex-19
+{
+    background-color: transparent;
+    color: inherit;
+}
+.nex-20
+{
+    color: #F06055;
+    display: flex;
+}
+.nex-21
+{
+    border: 1px solid transparent;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+    padding: 11.5px 20px;
+    font-weight: 700;
+    min-width: 100%;
+}
+.nex-22
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nex-23
+{
+    margin: 40px 0 30px;
+    width: 330px;
+}
+.nex-24
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.nex-25
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    width: 33%;
+}
+.nex-26
+{
+    width: 78px;
+    min-height: fit-content;
+    margin-top: 6px;
+}
+.nex-27
+{
+    width: 112px;
+    min-height: fit-content;
+    margin-top: 6px;
+}
+.nex-28
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 37px;
+}
+.nex-29
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.nex-30
+{
+    width: 700px;
+    height: 700px;
+    min-height: fit-content;
+}
+.nex-31
+{
+    width: 700px;
+    height: 700px;
+    min-height: fit-content;
+}
+.bex-1
+{
+   text-align: left;
+   margin: 0;
+   color: rgb(255 255 255 / 70%);
+   font-size: 22px;
+   font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+   letter-spacing: -0.3px;
+   line-height: 35px;
+}
+.bex-2
+{
+    margin-top: 10%;
+    float: right;
+    width: 33%;
+    margin-right: 7vw;
+}
+.bex-3
+{
+    height: 47vw;
+    width: 100vw;
+    min-height: 500px;
+    background-size: 100% 100%;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1000,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/we_are_cult_new.svg);
+}
+.aex-1
+{
+    width: 149px;
+    min-height: fit-content;
+}
+.aex-2
+{
+    margin-right: 20px;
+    background-color: transparent;
+    color: inherit;
+}
+.aex-3
+{
+    width: 165.5px;
+    min-height: fit-content;
+}
+.aex-4
+{
+    background-color: transparent;
+    color: inherit;
+}
+.aex-5
+{
+    display: flex;
+    flex-direction: initial;
+    justify-content: start;
+    margin-top: auto;
+    margin-bottom: initial;
+}
+.aex-6
+{
+   text-align: start;
+   margin: 0;
+   color: white;
+   font-size: 30px;
+   font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+   letter-spacing: 0.01px;
+   line-height: 38px;
+   margin-bottom: 4%;
+   max-width: 450px;
+   font-weight: 500;
+}
+.aex-7
+{
+   text-align: start;
+   margin: 0;
+   color: rgb(255 255 255 / 80%);
+   font-size: 18px;
+   font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+   letter-spacing: 0px;
+   line-height: 22px;
+   margin-bottom: 8.5%;
+   max-width: 475px;
+}
+.aex-8
+{
+    padding: 40px;
+}
+.aex-9
+{
+    border: none;
+    border-radius: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1200,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/download-app/download-app-variant-2.png);
+}
+.aex-10
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.aex-11
+{
+    padding: 50px 0 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dex-1
+{
+   text-align: center;
+   margin: 0;
+   color: white;
+   font-size: 40px;
+   font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+   letter-spacing: 0.01px;
+   line-height: 60px;
+   margin-bottom: 6%;
+   font-weight: 500;
+}
+.dex-2
+{
+    min-height: fit-content;
+    width: 100%;
+}
+.dex-3
+{
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3888FF;
+    background: transparent;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 0;
+}
+.dex-4
+{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    padding: 20px 40px 25px;
+    box-sizing: border-box;
+}
+.dex-5
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: none;
+    height: 100%;
+    background-position: center center;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/join-the-cult/career-at-cult.png);
+}
+.dex-6
+{
+    color: inherit;
+    background-color: transparent;
+}
+.dex-7
+{
+    flex-basis: 49%;
+}
+.dex-8
+{
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0.01px;
+    line-height: 60px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+.dex-9
+{
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0.01px;
+    line-height: 60px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+.dex-10
+{
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 22px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: -0.3px;
+    line-height: 35px;
+    margin-top: 10%;
+}
+.dex-11
+{
+    border: 1px solid transparent;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3888FF;
+    background: transparent;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-weight: 700;
+    margin:auto;
+    margin-bottom: 0 ;
+}
+.dex-12
+{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    padding: 20px 40px 25px;
+    box-sizing: border-box;
+}
+.dex-13
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    border: none;
+    border-radius: 30px;
+    background-position: center center;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/join-the-cult/cult-for-business.png);
+}
+.dex-14
+{
+    display: flex;
+    justify-content: space-between;
+}
+.dex-15
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+}
+.dex-16
+{
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 70px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: -1px;
+    line-height: 84px;
+    margin-bottom: 6%;
+}
+.dex-17
+{
+    padding: 50px 0 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fex-1
+{
+    width: 40px;
+    min-height: fit-content;
+    margin: auto 0;
+}
+.fex-2
+{
+    text-align: left;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0.01px;
+    line-height: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fex-3
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.fex-4
+{
+    text-align: left;
+    margin: 0;
+    color: #cacaca;
+    font-size: 18px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    line-height: 22px;
+    max-width: 85%;
+    margin-bottom: 20px;
+}
+.fex-5
+{
+    padding: 20px 30px 20px 35px;
+    display: block;
+}
+.fex-6
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: none;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/four-square-card/cult-transform-glass-green.png);
+    padding-bottom: 85%;
+    height: 0px;
+}
+.fex-7
+{
+    flex-basis: 47%;
+    margin-bottom: 6%;
+}
+.fex-8
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: none;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/four-square-card/glass-blog-multi-color.png);
+    padding-bottom: 85%;
+    height: 0px;
+}
+.fex-9
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: none;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/four-square-card/glass-workout-gear.png);
+    padding-bottom: 85%;
+    height: 0px;
+}
+.fex-10
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: none;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/four-square-card/sugar-fit-glass-purple.png);
+    padding-bottom: 85%;
+    height: 0px;
+}
+.fex-11
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fex-12
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.fex-13
+{
+    padding: 50px 0 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fex-14
+{
+    flex-basis: 47%;
+}

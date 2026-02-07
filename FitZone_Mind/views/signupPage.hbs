@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Island+Moments&display=swap"
+        rel="stylesheet">
+    <title>FitZone| SignUp</title>
+    <!--To generte Logo for MusixOn-Website (fovicon)  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="/static/css/signupPageStyle.css">
+</head>
+
+<body>
+    <header>
+        <h1><img src="/static/image/Group-13153.svg" alt="On" width="50"><b>FitZone</b></h1>
+        <p><b>Sign up to make your body Fit.....</b></p>
+    </header>
+    <div class="container">
+        <form action="/signup" method="post">
+            <p>
+                <b>What's your Email_ID :</b><br>
+                <input type="email" id="email" placeholder="Email_ID" name="email" required>
+            </p>
+            <p>
+                <b>Create a Password :</b><br>
+                <input type="password" id="password" placeholder="Password" name="password" required>
+            </p>
+            <p>
+                <b>Enter your Full_Name :</b> <br>
+                <input type="text" placeholder="Harshvardhan Singh" name="fullName" required>
+            </p>
+            <p>
+                <b>Phone Number</b><br>
+                <input type="number" placeholder="Phone Number" name="phoneNumber" required>
+            </p>
+            <p>
+                <b>What's your date of birth?</b><br>
+                <input type="date" name="dob" required>
+            </p>
+            <p>
+                <b>Gender</b><br>
+                <fieldset>
+                <input type="radio" name="gender" id="Male"> Male
+                <input type="radio" name="gender" id="Female"> Female
+                <input type="radio" name="gender" id="Non-binary"> Non-binary<br>
+                <input type="radio" name="gender" id="Other"> Other 
+                <input type="radio" name="gender" id="private"> Prefer not to say
+                </fieldset>
+            </p>
+
+            <input type="submit" value="Sign Up">
+            <input type="reset">
+            <p>Have an acount? <a href="/mind">Log in</a></p>
+        </form>
+    </div>
+
+  <!-- fontawesome JAVASCRIPT link -->
+  <script src="https://kit.fontawesome.com/a1da3dbfbf.js" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,473 @@
+body {
+    background-color: whitesmoke;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CSS on nav */
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+#navbarText {
+    margin-left: 110px;
+    margin-right: 20px;
+}
+.nav-item {
+    padding: 0px 30px;
+    font-weight: bolder;
+}
+/* right Most corner */
+.lastpart {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+/* location-city */
+.city-container {
+    position: relative;
+}
+.city-header {
+    background-color: black;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px 20px 5px 20px;
+    margin-right: 10px;
+    min-width: 200;
+}
+.city-header:hover {
+    background-color: rgba(58, 56, 56, 0.868);
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.city-list {
+    display: none;
+    top: 100%;
+    right: 9.5%;
+    background-color: rgb(23, 26, 38);
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    position: absolute;
+    padding: 20px;
+    width: 350px;
+    height: 498px;
+    overflow: auto;
+    z-index: 5;
+}
+.city-search {
+    border-radius: 8px;
+    border: 1px solid rgb(103, 105, 107);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.city-search i {
+    position: relative;
+    margin: 5px 12px;
+}
+#city-search {
+    border: none;
+    background-color: rgb(23, 26, 38);
+    color: #ccc;
+   height: fit-content; 
+    width: 100%;
+}
+/* inside list */
+#cities {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}  
+#cities .tag-cities {
+    margin-top: 20px;
+}
+#cities li {
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+}
+#cities li:last-child {
+    border-bottom: none;
+}
+#cities li:hover {
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 5px;
+}
+.avatar {
+    padding: 10px;
+}
+.cart {
+    padding: 10px;
+}
+
+/* Fixed-navbar */
+.fixed-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #393A3B;
+    margin-bottom: 50px;
+}
+.refresh-button {
+    padding: 6px 20px 6px 20px;
+    margin: 6px 20px 6px 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* Full-width input fields */
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* Set a style for all buttons */
+.loginbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.loginbtn:hover {
+    opacity: 0.8;
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    border-radius: 8px;
+    color: white;
+}
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+.hidden-container {
+    padding: 16px;
+}
+.container-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 0 0 8px 8px;
+}
+span.psw {
+    padding-top: 16px;
+}
+/* The Modal (background) */
+.modal {
+    display: none;/* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 4;/* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;/* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 60px;
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%;
+    /* Could be more or less, depending on screen size */
+}
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    } to {
+        -webkit-transform: scale(1)
+    }
+}
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    } to {
+        transform: scale(1)
+    }
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    } .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+/* shopping-cart CSS */
+/* The popup cart - hidden by default */
+.cart-popup {
+    display: none;
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    right: 0;
+    border: 3px solid #000000;
+    z-index: 9;
+    height: 100%;
+}
+/* The Close Button (x) */
+.closeCart {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bold;
+}
+.closeCart:hover,
+.closeCart:focus {
+    color: red;
+    cursor: pointer;
+}
+/* Add styles to the form container */
+.innerCart-container {
+    max-width: 300px;
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.innerCart-container img {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    min-height: 300px;
+}
+.innerCart-container .booktestBtn {
+    font-weight: bold;
+    background-color: white;
+    color: red;
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 160px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+/* Add some hover effects to buttons */
+.innerCart-container .booktestBtn:hover {
+    color: black;
+}
+
+
+.main-container {
+    margin: 5px 142.500px 5px 132.500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h6 {
+    margin-bottom: 34px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Card */
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 594px;
+    height: 320px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    margin-left: 20px;
+    margin-bottom: 24px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card-img {
+    width: 40%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    object-fit: fill;
+}
+
+.card-content {
+    width: 60%;
+    height: 100%;
+    padding: 15px;
+    text-align: left;
+}
+
+.card-title {
+    margin-top: 0;
+}
+
+.card-text {
+    margin-bottom: 0;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    width: 55%;
+}
+
+.card-footer .btn {
+    border-style: none;
+    color: #212529;
+}
+
+.comment-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-section form-class {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.comment-section form textarea {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.comment-section form button {
+    background: #4caf4c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* CSS on footer */
+footer {
+    top: 100%;
+    bottom: 0%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #393A3B;
+    color: white;
+}
+
+.footer-container,
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.cultfit-moto {
+    margin: 25px 90px 25px 90px;
+    width: 20%;
+}
+
+.cultfit-moto .moto {
+    margin-top: 25px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.childcompanys-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.blogAndStuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 15%;
+    margin-right: 60px;
+}
